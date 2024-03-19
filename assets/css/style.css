@@ -34,6 +34,19 @@
     margin: 100px auto;
 }
 
+.title-home {
+    margin-top: 100px;
+
+}
+
+.title-home h1 {
+    font-family: "Anta", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.5em;
+
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 
