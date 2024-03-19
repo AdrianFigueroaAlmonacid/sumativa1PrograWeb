@@ -22,8 +22,14 @@
     font-size: 1.3em;
 }
 
+.text-nav {
+
+    font-size: 1.3em;
+}
+
 .news-cinetopia,
-.container-form-cinetopia {
+.container-form-cinetopia,
+.container-news-cinetopia {
 
     margin: 100px auto;
 }
