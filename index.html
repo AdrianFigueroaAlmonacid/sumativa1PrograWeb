@@ -46,107 +46,185 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#"> <span class="text-nav">Series</span> </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html"> <span class="text-nav">Contacto</span> </a>
-                    </li>
+                    <li>
 
+
+                    </li>
                 </ul>
-                <form class="d-flex">
+                <!-- <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Escribe tu busqueda"
                         aria-label="Search">
                     <button class="btn  btn-success" type="submit">Buscar</button>
-                </form>
+
+                </form> -->
+
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Inicio de sesión
+                </button>
             </div>
         </div>
     </nav>
     <!-- NAV BAR -->
 
+
+    <!-- MODAL LOGIN -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Inicia sesión</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="container-login">
+                        <div class="mb-3 row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                    value="email@example.com">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class=" boton-menu btn btn-warning"> <a class="nav-link"
+                            href="./recuperar-pass.html">Recuperar
+                            contraseña</a> </button>
+                    <button type="button" class=" boton-menu btn btn-info"> <a class="nav-link"
+                            href="./registro-usuario.html">Registrarse</a>
+                    </button>
+                    <button type="button" class="btn btn-success">Ingresar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL LOGIN -->
+
     <div class="title-home">
-        <h1>lo mejor del cine y el espectaculo</h1>
+        <h1>Lo mejor del cine y el espectáculo</h1>
     </div>
 
     <!-- NOTICIAS -->
     <section class="news-cinetopia container-landing">
+        <h2>Últimas noticias del cine</h2>
 
-        <div class="card mb-3 ">
+        <div class=" card-news card mb-3">
             <a href="./noticia1.html">
-                <img src="./assets/img/noticia2.jpeg" class="card-img-top" alt="...">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="./assets/img/noticia1.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body  text-start">
+                            <h5 class="card-title">Si quieres encontrar un tesoro, no mires ahí". <br> Nicolas Cage
+                                culpa a
+                                Disney
+                                de que
+                                su saga de películas más popular no
+                                tenga tercera entrega</h5>
+                            <p class="card-text">Teniendo en cuenta que han pasado 17 años desde el estreno de la
+                                anterior
+                                entrega,
+                                tampoco es una sorpresa tan grande</p>
+                            <p class="card-text"><small class="text-muted">Leer más</small></p>
+                        </div>
+                    </div>
+                </div>
             </a>
-            <div class="card-body">
-                <h5 class="card-title">Si quieres encontrar un tesoro, no mires ahí". <br> Nicolas Cage culpa a Disney
-                    de que
-                    su saga de películas más popular no
-                    tenga tercera entrega</h5>
-                <p class="card-text">Teniendo en cuenta que han pasado 17 años desde el estreno de la anterior entrega,
-                    tampoco es una sorpresa tan grande</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+
+        </div>
+        <div class="card card-news mb-3">
+            <a href="./noticia2.html">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="./assets/img/noticia2.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body  text-start">
+                            <h5 class="card-title">El manga de 'One Piece' se detiene. Eiichiro Oda se toma un descanso
+                                de varias semanas, pero no necesariamente por un
+                                mal motivo
+                            </h5>
+                            <p class="card-text">A recargar pilas, y seguimos en Egghead
+                            </p>
+                            <p class="card-text"><small class="text-muted">Leer más</small></p>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
 
-        <div class="card mb-3 ">
-            <img src="./assets/img/entrevista1.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Aaron Taylor-Johnson ya tendría la oferta para ser el nuevo James Bond</h5>
-                <p class="card-text">Un nuevo reporte indica que Eon Productions ya le ofreció el trabajo y esperan que
-                    la
-                    firma se concrete en el corto
-                    plazo para comenzar a trabajar en la próxima película que iniciará una nueva era para 007.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+        <div class="card card-news  mb-3">
+            <a href="./noticia3.html">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="./assets/img/noticia3.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body  text-start">
+                            <h5 class="card-title">30 años después del histórico crossover de Star Trek, William Shatner
+                                confiesa su gran arrepentimiento con esta crucial
+                                escena. "No entendían lo que hacía"
+                            </h5>
+                            <p class="card-text">En 1994 'Star Trek: Generations' juntó a las dos tripulaciones más
+                                queridas
+                                de la Enterprise: la de Kirk y la de Picard
+                            </p>
+                            <p class="card-text"><small class="text-muted">Leer más</small></p>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
-
     </section>
     <!-- NOTICIAS -->
 
     <!-- ENTREVISTAS -->
     <section class="interviews-cinetopia container-landing">
 
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="./assets/img/afiche1.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
-                    </div>
+        <h2>Entrevistas</h2>
+        <div class="card-group gap-3">
+            <div class="card">
+                <img src="./assets/img/afiche1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./assets/img/afiche1.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
-                    </div>
+            <div class="card">
+                <img src="./assets/img/afiche1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./assets/img/afiche1.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional
-                            content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./assets/img/afiche1.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
-                    </div>
+            <div class="card">
+                <img src="./assets/img/afiche1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional
+                        content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
         </div>
+
+
 
     </section>
     <!-- ENTREVISTAS -->

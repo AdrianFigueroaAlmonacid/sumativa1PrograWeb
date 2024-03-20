@@ -4,16 +4,16 @@
     box-sizing: border-box;
     font-size: 16px;
     text-align: center;
+
 }
 
 
 .container-landing {
     max-width: 1200px;
     margin: auto;
+    padding: 0 10px;
 
 }
-
-
 
 .logo-cinetopia {
     font-family: "Anta", sans-serif;
@@ -45,6 +45,20 @@
     font-style: normal;
     font-size: 2.5em;
 
+}
+
+.container-login {
+
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.boton-menu a,
+.card-news a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
 }
 
 /* Small devices (landscape phones, 576px and up) */
