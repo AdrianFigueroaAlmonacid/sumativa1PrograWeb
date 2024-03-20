@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-size: 16px;
     text-align: center;
-
 }
+
 
 
 .container-landing {
@@ -60,6 +60,29 @@
     cursor: pointer;
     color: #000;
 }
+
+
+/* PIE DE PAGINA*/
+.footer-content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.iconos-redes a {
+    color: #0785ed;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
