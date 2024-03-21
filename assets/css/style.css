@@ -23,7 +23,7 @@
 }
 
 .text-nav {
-
+    font-family: "Anta", sans-serif;
     font-size: 1.3em;
 }
 
@@ -32,7 +32,10 @@
 .container-news-cinetopia {
 
     margin: 50px auto;
+
 }
+
+
 
 .title-home {
     margin-top: 100px;
@@ -96,12 +99,27 @@ footer {
 
 }
 
+.container-form-cinetopia {
+    border: none;
+    padding: 10px;
+    border-radius: unset;
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+    .container-form-cinetopia {
+        border: 3px solid #0d6efd;
+        padding: 50px;
+        border-radius: 25px;
+
+    }
+
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
