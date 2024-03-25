@@ -52,14 +52,14 @@
 }
 
 .container-login {
-
     max-width: 600px;
     margin: auto;
 
 }
 
 .boton-menu a,
-.card-news a {
+.card-news a,
+.card-interview a {
     text-decoration: none;
     cursor: pointer;
     color: #000;
@@ -67,7 +67,6 @@
 
 
 .title-form {
-
     margin-top: 50px;
 }
 
